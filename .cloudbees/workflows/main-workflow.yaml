@@ -26,7 +26,7 @@ jobs:
           url: https://sda.preview.cb-demos.io/westest/
           username: ${{ secrets.WES_JENKINS_USERNAME }}
           token: ${{ secrets.WES_JENKINS_TOKEN }}
-          job-name: WesTestJob
+          job-name: WesMBFolder/job/JenkinsMB1105/job/main/
       - name: Run GHA Workflow
         uses: cloudbees-io/ghactions-run-workflow@v2
         continue-on-error: true
